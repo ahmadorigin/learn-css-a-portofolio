@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Portofolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav>
@@ -15,32 +16,40 @@
       </ul>
     </nav>
     <main>
-      <h2>Halo, Saya [Muhammad Abdullah]</h2>
-      <p>Web Developer Expert eh, tapi boong</p>
+        <div class="halaman">
+            <h2>Halo, Saya [Muhammad Abdullah]</h2>
+            <p>Web Developer Expert eh, tapi boong</p>
+        </div>
 
       <div class="tentang">
-        <h3>Tentang Saya</h3>
-
-        <img src="" alt="" />
+        <h2 style="text-align: center; margin-bottom: 50px;">Tentang Saya</h2>
+<div class="bla">
+        <img src="image.jpg" alt="" style="width: 250px; border-radius: 10px;"/>
+        <div class="bla2">
         <p>
-          Saya adalah seorang pemula dalam web developmentyang sedang belajar
+          Saya adalah seorang pemula dalam web development yang sedang belajar
           HTML dan CSS <br />
           <b>Keterampilan</b>
         </p>
 
         <div class="keter">
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>Flexbox</p>
+          HTML5
+          CSS3
+          Flexbox
         </div>
+    </div>
+    </div>
       </div>
 
       <div class="proyek">
-        <h3>Proyek Saya</h3>
+        <h2>Proyek Saya</h2>
+        <br>
+        </b>
+        <div class="proyek-dalam">
         <div class="proyek1">
           <a
             href="https://ahmadorigin.github.io/learn-basic-css-by-building-cafe-menu/"
-            ><img src="cafe.css.png" alt="Proyek Pertama"
+            ><img src="cafe.css.png" alt="Proyek Pertama" class="image"
           /></a>
           <p>
             <b>Web Cafe Menu</b><br />Website menu cafe ala minimalis
@@ -66,10 +75,12 @@
             dan CSS
           </p>
         </div>
+        </div>
       </div>
 
       <div class="hubungi">
-        <label for="name">Nama Lengkap:</label>
+        <h2 style="text-align: center;">Hubungi Saya</h2>
+        <label for="name" class="nama">Nama Lengkap:</label>
         <br />
         <input
           class="label"
@@ -79,7 +90,7 @@
           placeholder="Masukkan nama lengkap"
         />
         <br /><br />
-        <label for="email">Alamat Email</label>
+        <label for="email" class="nama">Alamat Email:</label>
         <br />
         <input
           class="label"
@@ -87,15 +98,17 @@
           name="email"
           id="email"
           placeholder="contoh@gmail.com"
-        />
-        <label for="biodata">Pesan:</label>
+        /> <br><br>
+        <label for="biodata" class="nama">Pesan:</label>
         <br />
         <textarea
+          class="label"
           name="biodata"
           id="biodata"
           placeholder="Tulis Pesan Tambahan Disini"
+          
         ></textarea>
-
+<br><br>
         <input class="input" type="button" value="Kirim Pesan" />
       </div>
     </main>
