@@ -104,7 +104,7 @@ footer {
   color: aliceblue;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 590px) {
   section {
     padding: 15px;
   }
@@ -127,7 +127,7 @@ footer {
     display: flex;
     margin: auto;
   }
-  a {
+  li a {
     margin: 5px;
   }
 }
