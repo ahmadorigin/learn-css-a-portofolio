@@ -4,11 +4,10 @@
 }
 
 .halaman {
-  padding: 130px;
   text-align: center;
+  padding: 150px;
   background-color: rgb(74, 159, 232);
-  color: white;
-  /* background-image: url("./assets/wall.jpg"); */
+  color: aliceblue;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(blue, rgb(0, 162, 255), aliceblue);
@@ -19,18 +18,20 @@
 }
 li a {
   color: inherit;
-  margin: 50px;
+  margin: 20px;
+  margin-right: 60px;
 }
 nav {
+  background-color: rgb(34, 0, 255);
   color: #ffffff;
-  background-color: blue;
-  width: 100%;
   height: 40px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 ul li {
   display: inline;
 }
@@ -38,8 +39,17 @@ main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .tentang {
-  background-color: aliceblue;
-  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(aliceblue, white, white, aliceblue);
+  padding: 80px;
+}
+span {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 20px;
+  /* background-color: #00c8ffac */
+  background-image: linear-gradient(silver, aliceblue);
+  font-style: italic;
 }
 .proyek {
   background-color: aliceblue;
@@ -48,13 +58,22 @@ main {
 }
 .proyek1 {
   background-color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 5px rgb(187, 186, 186);
+  box-shadow: 1px 1px 1px 1px rgb(187, 186, 186);
   padding: 20px;
   border-radius: 10px;
 }
+.bla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  width: 600px;
+}
 .bla img {
-  box-shadow: 5px 5px 5px rgb(187, 186, 186);
-  margin-left: 50px;
+  box-shadow: 1px 1px 1px 1px rgb(187, 186, 186);
+  margin: auto;
 }
 .proyek img {
   width: 100%;
@@ -67,12 +86,13 @@ main {
   padding: 20px;
 }
 .nama {
-  margin-left: 20px;
+  margin-left: 5%;
 }
 .label {
+  display: flex;
   border: 1.5px solid aliceblue;
   border-radius: 5px;
-  margin-left: 20px;
+  margin: auto;
   padding: 4px;
   width: 90%;
 }
@@ -84,24 +104,21 @@ main {
   padding: 20px;
 }
 .input {
+  display: flex;
   background-color: #04aa6d;
   border-radius: 5px;
   border: 1.5px solid rgb(255, 254, 254);
   color: white;
   padding: 10px 5px;
-  margin: 20px;
+  margin: auto;
   width: 90%;
-}
-.bla {
-  display: flex;
-  gap: 20px;
 }
 
 footer {
   background-image: linear-gradient(aliceblue, rgb(0, 162, 255), aliceblue);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
-  height: 40px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +131,9 @@ footer {
   }
   h1 {
     font-size: 2em;
+  }
+  nav {
+    justify-content: center;
   }
   .halaman {
     padding: 100px;
@@ -139,6 +159,6 @@ footer {
     margin: auto;
   }
   li a {
-    margin: 5px;
+    margin: 10px;
   }
 }
