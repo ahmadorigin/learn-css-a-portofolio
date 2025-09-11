@@ -67,7 +67,6 @@ span {
   align-items: center;
   justify-content: center;
   margin: auto;
-  display: flex;
   gap: 20px;
   width: 600px;
 }
@@ -138,16 +137,15 @@ footer {
   .halaman {
     padding: 100px;
   }
+  .tentang {
+    padding: 30px;
+  }
   .bla {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 290px;
     margin: auto;
-  }
-  .bla img {
-    margin: auto;
+    width: 100%;
   }
   .bla2 {
     text-align: center;
